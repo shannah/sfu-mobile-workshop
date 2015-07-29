@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="CategoryForm" cloudDestinationProperty="CategoryForm" uiid="CategoryForm" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Category Form" >
+  <component type="MultiList" name="locationsList" cloudDestinationProperty="locationsList" orientation="0" >
+    <layoutConstraint value="Center" />
+    <mapItems>
+      <imageItem key="icon" value="cutlery_cccccc_256.png" />
+      <stringItem key="Line3" value="Get beer and food" />
+      <stringItem key="Line1" value="SFU Pub" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="Line2" value="more..." />
+      <stringItem key="Line1" value="Entry 2" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="Line2" value="more..." />
+      <stringItem key="Line1" value="Entry 3" />
+    </mapItems>
+    <custom name="iconUiid" type="java.lang.String" value="ItemLabel" />
+  </component>
+</component>

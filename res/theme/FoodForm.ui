@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="FoodForm" cloudDestinationProperty="FoodForm" uiid="CategoryForm" layout="BoxLayout" boxLayoutAxis="Y" title="Food" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="CategoryListItem" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Label" name="Icon" cloudDestinationProperty="Icon" uiid="ItemLabel" text="" icon="cutlery_cccccc_256.png" >
+    </component>
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Name" cloudDestinationProperty="Name" uiid="ItemName" text="SFU Pub" >
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+        <component type="Label" name="ShortDescription" cloudDestinationProperty="ShortDescription" uiid="ItemShortDescription" text="Short Description" >
+        </component>
+        <component type="Label" name="Distrance" cloudDestinationProperty="Distrance" uiid="ItemDistance" text="2.1 KM" >
+        </component>
+      </component>
+    </component>
+  </component>
+<command name="Home" id="1" action="Main" backCommand="true" /></component>

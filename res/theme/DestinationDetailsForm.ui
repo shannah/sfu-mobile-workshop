@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="DestinationDetailsForm" cloudDestinationProperty="DestinationDetailsForm" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Destination Details" >
+  <component type="Label" name="DestinationImage" cloudDestinationProperty="DestinationImage" text="DestinationImage" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="DetailsHeading" cloudDestinationProperty="DetailsHeading" uiid="DetailsHeading" text="SFU Pub" >
+    </component>
+    <component type="SpanLabel" name="DetailsDescription" cloudDestinationProperty="DetailsDescription" >
+      <custom name="text" type="java.lang.String" value="The SFU pub is located in the Maggie Benston building directly across from the library." />
+    </component>
+    <component type="Button" name="ReservationButton" cloudDestinationProperty="Button" text="Make a Reservation" >
+    </component>
+  </component>
+</component>

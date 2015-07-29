@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" uiid="MainForm" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="" icon="sfu-logo.jpg" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="Padding" layout="GridLayout" gridLayoutRows="2" gridLayoutColumns="3" >
+    <layoutConstraint value="South" />
+    <component type="Button" name="FoodButton" cloudDestinationProperty="Button" commandName="Food" commandIcon="cutlery_ffffff_256.png" commandId="2" commandAction="CategoryForm" commandBack="false" uiid="CategoryButton" focusable="false" text="Food" icon="cutlery_ffffff_256.png" textPosition="2" >
+    </component>
+    <component type="Button" name="StudyButton" cloudDestinationProperty="Button1" commandName="Study Spaces" commandIcon="book_ffffff_256.png" commandId="3" commandAction="CategoryForm" commandBack="false" uiid="CategoryButton" text="Study Spaces" icon="book_ffffff_256.png" textPosition="2" >
+    </component>
+    <component type="Button" name="Button2" cloudDestinationProperty="Button2" uiid="CategoryButton" text="Parking" icon="car_ffffff_256.png" pressedIcon="car_cccccc_256.png" textPosition="2" >
+    </component>
+    <component type="Button" name="Button3" cloudDestinationProperty="Button3" uiid="CategoryButton" text="Events" icon="calendar_ffffff_256.png" pressedIcon="calendar_cccccc_256.png" textPosition="2" >
+    </component>
+    <component type="Button" name="Button4" cloudDestinationProperty="Button4" uiid="CategoryButton" text="Facilities" icon="building-o_ffffff_256.png" pressedIcon="building-o_cccccc_256.png" textPosition="2" >
+    </component>
+  </component>
+  <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" >
+    <layoutConstraint value="Center" />
+    <custom name="text" type="java.lang.String" value="Welcome to the SFU Tour Guide.  Select a category below to begin" />
+    <custom name="textUiid" type="java.lang.String" value="WelcomeLabel" />
+  </component>
+  <custom name="titleUIID" type="java.lang.String" value="TitleHidden" />
+  <custom name="titleAreaUIID" type="java.lang.String" value="TitleAreaHidden" />
+</component>
